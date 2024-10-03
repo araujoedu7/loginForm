@@ -3,6 +3,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Login } from './componentes/areaLogin';
 import { AreaCadastro } from './componentes/areaCadastro';
+import { Dashboard } from './componentes/dashboard';
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: '/register',
     element: <AreaCadastro />
+  },
+  {
+    path:'/dash',
+    element: <Dashboard/>
   }
 ])
 
@@ -20,3 +25,4 @@ function App() {
 }
 
 export default App;
+

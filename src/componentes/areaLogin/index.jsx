@@ -2,11 +2,12 @@ import "./style.css";
 
 export function Login() {
   return (
-    <section className="flex items-center h-[90vh] bg-slate-300">
-      <div className="areaInform flex ml-10 justify-center items-center h-[90vh] w-[30vw]">
+    <section className="flex items-center h-[90vh] bg-slate-300 ">
+      <div className="areaInform flex ml-10 justify-center items-center h-[100vh] w-[40vw]">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVW71FBQyt1Um7_1DBPcFJN1qiYcyDaiDHkw&s"
+          src="../public\homemSentado.png"
           alt=""
+          className="rounded-3xl"
         />
       </div>{" "}
       <form className="pl-40">
